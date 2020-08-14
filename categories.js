@@ -1,6 +1,6 @@
 const fs = require('fs');
 const WPAPI = require( 'wpapi' );
-const axios = require('axios');
+const axios = require('axios'); 
 
 const wp = new WPAPI({ endpoint: 'http://harpacrista.org/wp-json' });
 
