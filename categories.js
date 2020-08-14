@@ -1,13 +1,14 @@
 const fs = require('fs');
 const WPAPI = require( 'wpapi' );
 const axios = require('axios'); 
-
 const wp = new WPAPI({ endpoint: 'http://harpacrista.org/wp-json' });
+const getSortOrder = require('./getSortOrder.js');
 
-
-let posts = []
+const filename = './wp-categories.json';
+let posts = [];
 let hymns = [];
-const categoriesPerPage = 60
+const promises = [];
+const categoriesPerPage = 60;
 
 
 // Promises
@@ -26,9 +27,9 @@ wp.categories()
 
     return { id, count, name, slug };    
   })
-  // remove categorias vazias
+  // remove empty categories
   posts = posts.filter(post => post.count > 0);
-  // remove categoria "sem categoria"
+  // remove category "sem categoria"
   posts.shift();
   
   // console.log(posts);
@@ -36,83 +37,38 @@ wp.categories()
   const yourAsyncFunction = async (category) => {    
     try {
       const response = await axios.get(
-        `https://harpacrista.org/wp-json/wp/v2/posts?categories=${category.id}`
-      )
+        `https://harpacrista.org/wp-json/wp/v2/posts?categories=${category.id}&per_page=100`
+      );
 
       // console.log(response.data);
 
-      const ids = response.data.map(hymn => hymn.id)      
+      const ids = response.data.map(hymn => hymn.id);  
 
-      const newData = {...category, numbers: ids}
+      const newData = { ...category, numbers: ids };
       
-      hymns.push(newData)
+      hymns.push(newData);
     } catch (error) {
       console.log(categoryId, 'error');
     }
   }
-
-  const promises = []
   
   for(i = 0; i < posts.length; i++){
     
-    promises.push(yourAsyncFunction(posts[i]))
+    promises.push(yourAsyncFunction(posts[i]));
   }
   const runFunc = async () => {await Promise.all(promises)};
   runFunc();
+
   setTimeout(()=>{   
     // console.log(hymns)
-    fs.writeFile('wp-categories.json', JSON.stringify(hymns, null, 2), err => {
-      if(err) throw new Error ('something went wrong')
-      console.log('Well Done!')
+    hymns.sort(getSortOrder("name"));  
+    fs.writeFile(filename, JSON.stringify(hymns, null, 2), err => {
+      if(err) throw new Error ('something went wrong');
+      console.log('Well Done!');
     });
-  }, 500 * categoriesPerPage)
+  }, 200 * categoriesPerPage);
   
 
 }).catch(function( err ) {
   console.log(err);
 });
-
-
-
-// function getPosts(category){
-//   Promise.resolve(wp.posts()
-//     .categories( category.id )
-//     .perPage(100)
-//     .then(function( response ) {       
-//       response.map(res => {
-//       hymns[category.id].push(res.id)
-//       })        
-//     }).catch(function( err ) {
-//       console.log(err);
-//     }))
-// }
-
-
-
-
-// posts.map( post => {
-//   promises.push(getPosts(post.id) );
-// })
-
-// Promise.all(promises)
-//   .then(() => {    
-//     posts.map(post => {
-//       console.log('entrou');
-//       console.log(hymns[post.id]);      
-//     }) 
-    
-//   })
-//   .catch((e) => {
-//       // handle errors here
-//   });
-
-  
-
-
-
-// fs.writeFile('wp-categories.json', JSON.stringify(posts, null, 2), err => {
-//   if(err) throw new Error ('something went wrong')
-//   console.log('Well Done!')
-// });
-
-

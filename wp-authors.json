@@ -1,0 +1,697 @@
+[
+  {
+    "id": 16,
+    "author": "",
+    "initials": ""
+  },
+  {
+    "id": 125,
+    "author": "A. Mignão",
+    "initials": "A.M"
+  },
+  {
+    "id": 66,
+    "author": "A.D",
+    "initials": "A.D"
+  },
+  {
+    "id": 77,
+    "author": "A.L.W.C",
+    "initials": "A.L.W.C"
+  },
+  {
+    "id": 80,
+    "author": "A.Teixeira da Silva",
+    "initials": "A.T.S"
+  },
+  {
+    "id": 79,
+    "author": "Adriano Nobbre",
+    "initials": "A.N"
+  },
+  {
+    "id": 121,
+    "author": "Alfred B. Smith",
+    "initials": "A.B.S"
+  },
+  {
+    "id": 18,
+    "author": "Alfredo H. Da Silva",
+    "initials": "A.H.S"
+  },
+  {
+    "id": 76,
+    "author": "Alice O Denyszcuk",
+    "initials": "A.O.D"
+  },
+  {
+    "id": 2,
+    "author": "Almeida Sobrinho",
+    "initials": "A.S"
+  },
+  {
+    "id": 136,
+    "author": "Angelina Eulina",
+    "initials": "A.E"
+  },
+  {
+    "id": 108,
+    "author": "Annie R. Smith",
+    "initials": "A.R.S"
+  },
+  {
+    "id": 28,
+    "author": "Antônio Almeida",
+    "initials": "A.A"
+  },
+  {
+    "id": 139,
+    "author": "Antônio Alves dos Santos",
+    "initials": "A.A.S"
+  },
+  {
+    "id": 99,
+    "author": "Antônio Cabral",
+    "initials": "A.C"
+  },
+  {
+    "id": 138,
+    "author": "Antônio G. De Figueiredo",
+    "initials": "A.G.F"
+  },
+  {
+    "id": 49,
+    "author": "Antônio José dos S. Neves",
+    "initials": "A.J.S.N"
+  },
+  {
+    "id": 47,
+    "author": "Antônio Mardônio Nogueira Vieira",
+    "initials": "A.M.N.V"
+  },
+  {
+    "id": 89,
+    "author": "Antônio Torres da Silva",
+    "initials": "A.T.G"
+  },
+  {
+    "id": 27,
+    "author": "Augusto C. Barbosa",
+    "initials": "A.C.B"
+  },
+  {
+    "id": 10,
+    "author": "Autor desconhecido",
+    "initials": "***"
+  },
+  {
+    "id": 43,
+    "author": "B.G",
+    "initials": "B.G"
+  },
+  {
+    "id": 58,
+    "author": "Bruno Skolimowsky",
+    "initials": "B.S"
+  },
+  {
+    "id": 70,
+    "author": "D.H.J",
+    "initials": "D.H.J"
+  },
+  {
+    "id": 59,
+    "author": "D.M. Hazlett",
+    "initials": "D.M.H"
+  },
+  {
+    "id": 45,
+    "author": "Dario P. Araújo",
+    "initials": "D.P.A"
+  },
+  {
+    "id": 9,
+    "author": "Domingos Lins",
+    "initials": "D.L"
+  },
+  {
+    "id": 82,
+    "author": "Dr Isaac Watts",
+    "initials": "D.I.W"
+  },
+  {
+    "id": 69,
+    "author": "E.H",
+    "initials": "E.H"
+  },
+  {
+    "id": 55,
+    "author": "Edson F. Coelho",
+    "initials": "E.F.C"
+  },
+  {
+    "id": 48,
+    "author": "Elisa E. Hewitt",
+    "initials": "E.E.H"
+  },
+  {
+    "id": 56,
+    "author": "Eliza rivers Smart",
+    "initials": "E.R.S"
+  },
+  {
+    "id": 24,
+    "author": "Emílio Conde",
+    "initials": "E.C"
+  },
+  {
+    "id": 11,
+    "author": "Erik Janson",
+    "initials": "E.J"
+  },
+  {
+    "id": 5,
+    "author": "Ernesto Wootton",
+    "initials": "E.W"
+  },
+  {
+    "id": 65,
+    "author": "Ernst Gebhardt",
+    "initials": "E.G"
+  },
+  {
+    "id": 91,
+    "author": "Eufrosine Kastberg",
+    "initials": "E.K"
+  },
+  {
+    "id": 129,
+    "author": "Evaristo da Veiga",
+    "initials": "E.V"
+  },
+  {
+    "id": 102,
+    "author": "F. W. Sulfield",
+    "initials": "F.W.S"
+  },
+  {
+    "id": 110,
+    "author": "F.A. Blackmer",
+    "initials": "F.A.B"
+  },
+  {
+    "id": 86,
+    "author": "Fanny Crosby",
+    "initials": "F.C"
+  },
+  {
+    "id": 68,
+    "author": "Fanny Jane Crosby",
+    "initials": "F.J.C"
+  },
+  {
+    "id": 107,
+    "author": "Frances Ridley Hevergal",
+    "initials": "F.R.H"
+  },
+  {
+    "id": 133,
+    "author": "Francisca F. Menezes",
+    "initials": "F.F.M"
+  },
+  {
+    "id": 95,
+    "author": "Francisco N. De Queiroz",
+    "initials": "F.N.Q"
+  },
+  {
+    "id": 100,
+    "author": "Francisco Pereira do Nascimento",
+    "initials": "F.P.N"
+  },
+  {
+    "id": 31,
+    "author": "Francisco Xavier",
+    "initials": "F.X"
+  },
+  {
+    "id": 6,
+    "author": "Frida Vingren",
+    "initials": "F.V"
+  },
+  {
+    "id": 41,
+    "author": "Glória Gaither",
+    "initials": "G.G"
+  },
+  {
+    "id": 132,
+    "author": "Guido W. de Oliveira",
+    "initials": "G.W.O"
+  },
+  {
+    "id": 87,
+    "author": "Gunnar Vingren",
+    "initials": "G.V"
+  },
+  {
+    "id": 20,
+    "author": "H. Maxwell Wrigth",
+    "initials": "H.M.W"
+  },
+  {
+    "id": 117,
+    "author": "Harold I. Donnelly",
+    "initials": "H.I.D"
+  },
+  {
+    "id": 131,
+    "author": "Hebert Nordlund",
+    "initials": "H.N"
+  },
+  {
+    "id": 84,
+    "author": "Hedwig Elisabeth Nordlund",
+    "initials": "H.E.N"
+  },
+  {
+    "id": 122,
+    "author": "I.S",
+    "initials": "I.S"
+  },
+  {
+    "id": 98,
+    "author": "Ingrid Anderson Franson",
+    "initials": "I.A.F"
+  },
+  {
+    "id": 38,
+    "author": "Isaac Watts",
+    "initials": "I.W"
+  },
+  {
+    "id": 135,
+    "author": "J. Herbert Mellemberg",
+    "initials": "J.H.M"
+  },
+  {
+    "id": 93,
+    "author": "J.A.S",
+    "initials": "J.A.S"
+  },
+  {
+    "id": 12,
+    "author": "J.F. Jamielson",
+    "initials": "J.F.J"
+  },
+  {
+    "id": 61,
+    "author": "J.I.Freire",
+    "initials": "J.I.F"
+  },
+  {
+    "id": 57,
+    "author": "J.I.O",
+    "initials": "J.I.O"
+  },
+  {
+    "id": 130,
+    "author": "J.J.C.C.M.A",
+    "initials": "J.J.C.C.M."
+  },
+  {
+    "id": 81,
+    "author": "J.J.S",
+    "initials": "J.J.S"
+  },
+  {
+    "id": 17,
+    "author": "J.T. Houston",
+    "initials": "J.T.H"
+  },
+  {
+    "id": 73,
+    "author": "Jane Catherine Bonar",
+    "initials": "J.C.B"
+  },
+  {
+    "id": 50,
+    "author": "Joanyr d&#8217;Oliveira",
+    "initials": "J.O"
+  },
+  {
+    "id": 128,
+    "author": "Joaquim Osório Duque Estrada",
+    "initials": "J.O.D.E"
+  },
+  {
+    "id": 13,
+    "author": "Joel Carlson",
+    "initials": "J.Car"
+  },
+  {
+    "id": 71,
+    "author": "John Bowring",
+    "initials": "J.B"
+  },
+  {
+    "id": 118,
+    "author": "John G. Whittier",
+    "initials": "J.G.W"
+  },
+  {
+    "id": 109,
+    "author": "John H. Yates",
+    "initials": "J.H.Y"
+  },
+  {
+    "id": 104,
+    "author": "John Josey",
+    "initials": "J.J"
+  },
+  {
+    "id": 123,
+    "author": "John R. Rice",
+    "initials": "J.R.R"
+  },
+  {
+    "id": 119,
+    "author": "Jonathan Bush Atchinson",
+    "initials": "J.B.A"
+  },
+  {
+    "id": 72,
+    "author": "Joseph Scriven",
+    "initials": "J.S"
+  },
+  {
+    "id": 85,
+    "author": "José B. Cavalcante",
+    "initials": "J.B.C"
+  },
+  {
+    "id": 134,
+    "author": "José Calazans",
+    "initials": "J.C"
+  },
+  {
+    "id": 90,
+    "author": "José Felinto",
+    "initials": "J.F"
+  },
+  {
+    "id": 39,
+    "author": "José Pimentel de Carvalho",
+    "initials": "J.P.C"
+  },
+  {
+    "id": 78,
+    "author": "José Rodrigues",
+    "initials": "J.R"
+  },
+  {
+    "id": 4,
+    "author": "José T. De Lima",
+    "initials": "J.T.L"
+  },
+  {
+    "id": 60,
+    "author": "João Dieners",
+    "initials": "J.D"
+  },
+  {
+    "id": 19,
+    "author": "João G. Da Rocha",
+    "initials": "J.G.R"
+  },
+  {
+    "id": 101,
+    "author": "João P. Queiroz",
+    "initials": "J.P.Q"
+  },
+  {
+    "id": 46,
+    "author": "João Pereira",
+    "initials": "J.P"
+  },
+  {
+    "id": 26,
+    "author": "Julião P. Da Silva",
+    "initials": "J.P.S"
+  },
+  {
+    "id": 23,
+    "author": "Justus H. Nelson",
+    "initials": "J.H.N"
+  },
+  {
+    "id": 29,
+    "author": "Júlia Ward Howe",
+    "initials": "J.W.H"
+  },
+  {
+    "id": 21,
+    "author": "Kalley",
+    "initials": "K"
+  },
+  {
+    "id": 111,
+    "author": "Katharine L. Bates",
+    "initials": "K.L.B"
+  },
+  {
+    "id": 32,
+    "author": "Kenneth L. Cox",
+    "initials": "K.L.C"
+  },
+  {
+    "id": 44,
+    "author": "Lauretta Wilcox James",
+    "initials": "L.W.J"
+  },
+  {
+    "id": 112,
+    "author": "Lucy E. Campbell",
+    "initials": "L.E.C"
+  },
+  {
+    "id": 94,
+    "author": "Luiz V. Ferreira",
+    "initials": "L.F"
+  },
+  {
+    "id": 33,
+    "author": "Lydia baxter",
+    "initials": "L.B"
+  },
+  {
+    "id": 3,
+    "author": "M.E. Carver",
+    "initials": "C"
+  },
+  {
+    "id": 120,
+    "author": "M.L.Y",
+    "initials": "M.L.Y"
+  },
+  {
+    "id": 8,
+    "author": "Manuel Augusto das Neves",
+    "initials": "M.A.N"
+  },
+  {
+    "id": 124,
+    "author": "Manuel Avelino de Souza",
+    "initials": "M.A.S"
+  },
+  {
+    "id": 88,
+    "author": "Manuel Sabino Bezerra",
+    "initials": "M.S.B"
+  },
+  {
+    "id": 67,
+    "author": "Martin Luther",
+    "initials": "M.L"
+  },
+  {
+    "id": 64,
+    "author": "Mary Ann Baker",
+    "initials": "M.A.B"
+  },
+  {
+    "id": 105,
+    "author": "Mary C. Gates",
+    "initials": "M.C.G"
+  },
+  {
+    "id": 40,
+    "author": "N.L.Z",
+    "initials": "N.L.Z"
+  },
+  {
+    "id": 106,
+    "author": "Nicodemos José Loureiro",
+    "initials": "N.J.L"
+  },
+  {
+    "id": 92,
+    "author": "Nils J. Nelson",
+    "initials": "N.J.N"
+  },
+  {
+    "id": 96,
+    "author": "Nils Kastberg",
+    "initials": "N.K"
+  },
+  {
+    "id": 137,
+    "author": "O.S. Boyer",
+    "initials": "O.S.B"
+  },
+  {
+    "id": 127,
+    "author": "Olavo Bilac",
+    "initials": "O.B"
+  },
+  {
+    "id": 7,
+    "author": "Otto Nelson",
+    "initials": "O.N"
+  },
+  {
+    "id": 1,
+    "author": "Paulo Leivas Macalão",
+    "initials": "P.L.M"
+  },
+  {
+    "id": 116,
+    "author": "Phoebe Cary",
+    "initials": "P.C"
+  },
+  {
+    "id": 52,
+    "author": "Priscilla J. Owens",
+    "initials": "P.J.O"
+  },
+  {
+    "id": 25,
+    "author": "R.H. Moreton",
+    "initials": "R.H.M"
+  },
+  {
+    "id": 63,
+    "author": "R.R. Kalley",
+    "initials": "R.R.K"
+  },
+  {
+    "id": 53,
+    "author": "Raimundo Nonato",
+    "initials": "R.N"
+  },
+  {
+    "id": 62,
+    "author": "Ray Palmer",
+    "initials": "R.P"
+  },
+  {
+    "id": 36,
+    "author": "Raymond C. Helsing",
+    "initials": "R.C.H"
+  },
+  {
+    "id": 115,
+    "author": "Richard Olden",
+    "initials": "R.H"
+  },
+  {
+    "id": 42,
+    "author": "S.B",
+    "initials": "S.B"
+  },
+  {
+    "id": 35,
+    "author": "S.E. McNair",
+    "initials": "S.E.McN"
+  },
+  {
+    "id": 15,
+    "author": "Samuel Nyström",
+    "initials": "S.N"
+  },
+  {
+    "id": 113,
+    "author": "Sanford Filmore Bennett",
+    "initials": "S.F.B"
+  },
+  {
+    "id": 51,
+    "author": "Sarah Poulton Kalley",
+    "initials": "S.P.K"
+  },
+  {
+    "id": 97,
+    "author": "Sebastião J. Nóbrega",
+    "initials": "S.J.N"
+  },
+  {
+    "id": 14,
+    "author": "Severino Silva",
+    "initials": "S.S"
+  },
+  {
+    "id": 83,
+    "author": "Simon Lundgren",
+    "initials": "S.L"
+  },
+  {
+    "id": 30,
+    "author": "Stuart K. Hine",
+    "initials": "S.K.H"
+  },
+  {
+    "id": 37,
+    "author": "Thomas Obediah Chishom",
+    "initials": "T.O.C"
+  },
+  {
+    "id": 22,
+    "author": "Tora Hedlund",
+    "initials": "T.H"
+  },
+  {
+    "id": 75,
+    "author": "Venâncio R. Santos",
+    "initials": "V.R.S"
+  },
+  {
+    "id": 34,
+    "author": "W. Anglin",
+    "initials": "W.A"
+  },
+  {
+    "id": 54,
+    "author": "Will L. Murphy",
+    "initials": "W.L.M"
+  },
+  {
+    "id": 114,
+    "author": "William Cowper",
+    "initials": "W.C"
+  },
+  {
+    "id": 126,
+    "author": "William Edwin Entzminger",
+    "initials": "W.E.E"
+  },
+  {
+    "id": 74,
+    "author": "William Hiley bathurst",
+    "initials": "W.H.B"
+  },
+  {
+    "id": 103,
+    "author": "William Shaw",
+    "initials": "W.S"
+  }
+]
